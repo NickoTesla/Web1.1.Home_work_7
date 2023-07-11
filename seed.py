@@ -2,6 +2,8 @@ from datetime import datetime, timedelta
 from random import randint
 from faker import Faker
 from my_select import *
+from database.db import Session
+from database.models import *
 
 fake = Faker('uk-UA')
 

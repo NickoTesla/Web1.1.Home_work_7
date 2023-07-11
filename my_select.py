@@ -1,4 +1,7 @@
 from sqlalchemy import func, desc
+from database.models import *
+from database.db import Session
+session = Session()
 
 
 def select_1(session):
